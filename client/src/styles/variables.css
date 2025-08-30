@@ -1,0 +1,49 @@
+/* CSS Variables - Pastel Color Theme */
+:root {
+  /* Primary Colors */
+  --primary-orange: #FFE5B4;
+  --primary-green: #B8E6B8;
+  --primary-blue: #A8D5E5;
+  
+  /* Accent Colors */
+  --accent-coral: #FFB3BA;
+  --accent-lavender: #D4B5E8;
+  --accent-mint: #B5F2D4;
+  
+  /* Neutral Colors */
+  --white: #FFFFFF;
+  --off-white: #FAFAFA;
+  --light-gray: #F5F5F5;
+  --medium-gray: #E0E0E0;
+  --dark-gray: #757575;
+  --text-dark: #333333;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--primary-orange), var(--primary-green));
+  --gradient-secondary: linear-gradient(135deg, var(--accent-coral), var(--accent-lavender));
+  --gradient-hero: linear-gradient(135deg, var(--primary-blue), var(--primary-green), var(--primary-orange));
+  
+  /* Shadows */
+  --shadow-light: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.15);
+  --shadow-heavy: 0 8px 32px rgba(0, 0, 0, 0.2);
+  
+  /* Border Radius */
+  --radius-small: 8px;
+  --radius-medium: 12px;
+  --radius-large: 20px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Z-index layers */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+}
